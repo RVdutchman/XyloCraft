@@ -1,5 +1,8 @@
 /* Variables */
 $font: 'Oswald', 'Helvetica', sans-serif;
+$dark-grey: #323232;
+$light-grey: #f0f0f0;
+$blue: #0000FF;
 /* global styles */
 html, body, .all {
   height: 100%;
@@ -38,8 +41,8 @@ html, body, .all {
 
 /* footer style*/
 .footer {
-  background-color: #323232;
-  color: #f0f0f0;
+  background-color: $dark-grey;
+  color: $light-grey;
   opacity: .6;
   height: 55px;
   font-size: 12px;
@@ -74,10 +77,10 @@ html, body, .all {
 
 /*style for staff/index.html */
 .midstaff p {
-    color: blue;
+    color: $blue;
 }
 .table {
-    background-color: #f0f0f0;
+    background-color: $light-grey;
     margin-bottom:  0px;
 
     img {
