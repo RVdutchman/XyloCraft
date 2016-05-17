@@ -1,0 +1,5 @@
+{
+"title":"Staff Team",
+"thead":["Skin","Minecraft username","Rank","Twitter"],
+"Staff":[{"mcName":"ItsXylium","twitter":"@ItsXylium","rank":"Owner"},{"mcName":"Nachtgaaltje","twitter":"@Nacht_Gaaltje_","rank":"Co-Owner"},{"mcName":"BoeingBjorn777","twitter":"@BoeingBjorn777","rank":"Admin"},{"mcName":"SnowStory","twitter":"@SnowStory_Bruce","rank":"Helper/Builder"},{"mcName":"NickXSilence","twitter":"@NIckXSilence","rank":"Builder"},{"mcName":"Zypthos","twitter":"@Zypthos","rank":"Helper"},{"mcName":"Timeuw","twitter":"@Timeuw","rank":"Helper"},{"mcName":"xGreenBanana","twitter":"@bananagreenyt","rank":"Helper"},{"mcName":"_enderzombie_25","twitter":"@_enderzombie_25","rank":""},{"mcName":"RV_dutchman","twitter":"@PotterFreakRoy","rank":"WebDeveloper"}]
+}

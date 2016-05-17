@@ -1,0 +1,22 @@
+{
+  "name": "xylocraft",
+  "version": "1.0.0",
+  "description": "A simple website for xylocraft minecraft server",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RVdutchman/XyloCraft.git"
+  },
+  "author": "Roy and Nienke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RVdutchman/XyloCraft/issues"
+  },
+  "homepage": "https://github.com/RVdutchman/XyloCraft#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
