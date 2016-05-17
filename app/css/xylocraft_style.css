@@ -1,3 +1,4 @@
+/* Variables */
 /* global styles */
 html, body, .all {
   height: 100%; }
@@ -6,8 +7,11 @@ html, body, .all {
   fieldset {
     display: table-cell; } }
 
+.left {
+  float: right; }
+
 .all {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", "Helvetica", sans-serif;
   min-height: 100%;
   background: url("../img/XyloCraft_Background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -15,28 +19,18 @@ html, body, .all {
   -o-background-size: cover;
   background-size: cover; }
 
+/* header styles */
 .navigation {
   text-transform: uppercase;
   display: inline; }
-
-.navigation li {
-  padding-left: 20px;
-  padding-right: 20px; }
+  .navigation li {
+    padding-left: 20px;
+    padding-right: 20px; }
 
 .headerImg {
   width: 100%; }
 
-.ip h1 {
-  font-size: 45px; }
-
-.ip:hover {
-  background-color: black;
-  color: white; }
-
-.left {
-  float: right; }
-
-/*copyright footer style*/
+/* footer style*/
 .footer {
   background-color: #323232;
   color: #f0f0f0;
@@ -44,16 +38,14 @@ html, body, .all {
   height: 55px;
   font-size: 12px;
   margin-top: 20px; }
-
-.footer > .col-md-2 > img {
-  margin-top: 10px;
-  width: 30px;
-  height: 30px;
-  display: inline; }
-
-.footer > .col-md-3 > p {
-  margin-top: 18px;
-  display: inline; }
+  .footer .col-md-2 img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline; }
+  .footer .col-md-3 p {
+    margin-top: 18px;
+    display: inline; }
 
 @keyframes opacity {
   from {
@@ -73,10 +65,9 @@ html, body, .all {
 .table {
   background-color: #f0f0f0;
   margin-bottom: 0px; }
-
-.table img {
-  width: 50px;
-  height: 50px; }
+  .table img {
+    width: 50px;
+    height: 50px; }
 
 td textarea {
   resize: none; }
@@ -110,19 +101,16 @@ td textarea {
 #dialogbox > div {
   background: #FFF;
   margin: 8px; }
-
-#dialogbox > div > #dialogboxhead {
-  background: #666;
-  font-size: 19px;
-  padding: 10px;
-  color: #CCC; }
-
-#dialogbox > div > #dialogboxbody {
-  background: #333;
-  padding: 20px;
-  color: #FFF; }
-
-#dialogbox > div > #dialogboxfoot {
-  background: #666;
-  padding: 10px;
-  text-align: right; }
+  #dialogbox > div #dialogboxhead {
+    background: #666;
+    font-size: 19px;
+    padding: 10px;
+    color: #CCC; }
+  #dialogbox > div #dialogboxbody {
+    background: #333;
+    padding: 20px;
+    color: #FFF; }
+  #dialogbox > div #dialogboxfoot {
+    background: #666;
+    padding: 10px;
+    text-align: right; }
