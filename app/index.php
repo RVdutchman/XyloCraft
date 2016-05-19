@@ -43,7 +43,6 @@
 <script type="text/javascript" id="js">
 $( document ).ready(function() {
       MakeFooter("index");
-      SetPageWith();
 });
 elem = document.getElementById('js');
 elem.parentNode.removeChild(elem);

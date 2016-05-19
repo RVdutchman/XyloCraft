@@ -1,11 +1,21 @@
 /* Variables */
 $font: 'Oswald', 'Helvetica', sans-serif;
 $dark-grey: #323232;
+$backgroundColor: #1b1b1b;
 $light-grey: #f0f0f0;
 $blue: #0000FF;
 /* global styles */
-html, body, .all {
-  height: 100%;
+body {
+  background-color: $backgroundColor;
+  .all {
+      font-family: $font;
+      color: #FFFFFF;
+      min-height: 100%;
+      -webkit-background-size: cover;
+         -moz-background-size: cover;
+           -o-background-size: cover;
+              background-size: cover;
+  }
 }
 @-moz-document url-prefix() {
     fieldset {
@@ -14,15 +24,6 @@ html, body, .all {
 }
 .left {
   float: right;
-}
-.all {
-    font-family: $font;
-    min-height: 100%;
-    background: url('../img/XyloCraft_Background.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
 }
 
 /* header styles */
@@ -43,35 +44,21 @@ html, body, .all {
 .footer {
   background-color: $dark-grey;
   color: $light-grey;
-  opacity: .6;
   height: 55px;
   font-size: 12px;
   margin-top: 20px;
 
-  .col-md-2 {
-    img{
-      margin-top: 10px;
-      width: 30px;
-      height: 30px;
-      display: inline;
-    }
+  img{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline;
   }
 
-  .col-md-3 {
-    p{
-      margin-top: 18px;
-      display: inline;
-    }
+  p{
+    margin-top: 18px;
+    display: inline;
   }
-}
-@keyframes opacity {
-    from {opacity: .6;}
-    to {opacity: 1;}
-}
-.footer:hover {
-  animation-name: opacity;
-  animation-duration: 1s;
-  opacity: 1;
 }
 
 
@@ -80,6 +67,7 @@ html, body, .all {
     color: $blue;
 }
 .table {
+    color: $backgroundColor;
     background-color: $light-grey;
     margin-bottom:  0px;
 

@@ -85,7 +85,6 @@ if (isset($_SESSION["username"])) {
                   saveAll();
             });
             MakeFooter("staff");
-            SetPageWith();
         });
       });
     })();

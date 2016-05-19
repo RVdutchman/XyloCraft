@@ -1,15 +1,4 @@
 /*
-@Set{css}
-*/
-function SetPageWith() {
-  var pageHeigt = $( document ).height();
-  var newHeigt;
-  var Staff;
-
-  $( '.all' ).css('min-height', pageHeigt);
-}
-
-/*
 @Parm{data} JSON
 @Parm{divId} string
 @Parm{logedIn} bool
@@ -88,15 +77,21 @@ function MakeFooter(page) {
     var img = "../img";
   }
   var footer = '<div class="row footer">\
-                  <div class="col-md-2">\
-                      <img class="img-responsive" src="'+img+'/logo.jpg" alt="footer logo img" />\
-                      <span>Copyright &copy; XyloCraft 2016</span>\
-                  </div>\
-                  <div class="col-md-7"></div>\
+                  <img class="img-responsive" src="'+img+'/logo.jpg" alt="footer logo img" />\
+                  <span>Copyright &copy; XyloCraft 2016</span>\
+                  <div style="float:right">\
+                  <!-- tweet button -->\
+                      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.rvdutchman.xyz/XyloCraft" data-text="Come and you the XyloCraft community" data-via="XyloSupport" data-size="large">Tweet</a>\
+                      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?\'http\':\'https\';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\'://platform.twitter.com/widgets.js\';fjs.parentNode.insertBefore(js,fjs);}}(document, \'script\', \'twitter-wjs\');</script>\
+                  <!-- follow button -->\
+                      <a href="https://twitter.com/XyloSupport" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @XyloSupport</a>\
+                      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?\'http\':\'https\';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\'://platform.twitter.com/widgets.js\';fjs.parentNode.insertBefore(js,fjs);}}(document, \'script\', \'twitter-wjs\');</script>\
+                  <!-- tweet naar -->\
+                      <a href="https://twitter.com/intent/tweet?screen_name=XyloSupport" class="twitter-mention-button" data-size="large" data-related="PotterFreakRoy">Tweet to @XyloSupport</a>\
+                      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?\'http\':\'https\';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\'://platform.twitter.com/widgets.js\';fjs.parentNode.insertBefore(js,fjs);}}(document, \'script\', \'twitter-wjs\');</script>\
                 </div>';
   document.getElementById('footer').innerHTML = footer;
 }
-
 /*
 @Parm{id} int
 @Parm{array} array

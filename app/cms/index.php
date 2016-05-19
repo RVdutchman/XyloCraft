@@ -62,7 +62,6 @@ header("location: ../staff/index.php");
         <script type="text/javascript" id="js">
         $( document ).ready(function() {
               MakeFooter("cms");
-              SetPageWith();
         });
         elem = document.getElementById('js');
         elem.parentNode.removeChild(elem);

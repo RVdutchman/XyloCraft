@@ -1,7 +1,15 @@
 /* Variables */
 /* global styles */
-html, body, .all {
-  height: 100%; }
+body {
+  background-color: #1b1b1b; }
+  body .all {
+    font-family: "Oswald", "Helvetica", sans-serif;
+    color: #FFFFFF;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
 
 @-moz-document url-prefix() {
   fieldset {
@@ -9,15 +17,6 @@ html, body, .all {
 
 .left {
   float: right; }
-
-.all {
-  font-family: "Oswald", "Helvetica", sans-serif;
-  min-height: 100%;
-  background: url("../img/XyloCraft_Background.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
 
 /* header styles */
 .navigation {
@@ -34,35 +33,24 @@ html, body, .all {
 .footer {
   background-color: #323232;
   color: #f0f0f0;
-  opacity: .6;
   height: 55px;
   font-size: 12px;
   margin-top: 20px; }
-  .footer .col-md-2 img {
+  .footer img {
     margin-top: 10px;
     width: 30px;
     height: 30px;
     display: inline; }
-  .footer .col-md-3 p {
+  .footer p {
     margin-top: 18px;
     display: inline; }
-
-@keyframes opacity {
-  from {
-    opacity: .6; }
-  to {
-    opacity: 1; } }
-
-.footer:hover {
-  animation-name: opacity;
-  animation-duration: 1s;
-  opacity: 1; }
 
 /*style for staff/index.html */
 .midstaff p {
   color: #0000FF; }
 
 .table {
+  color: #1b1b1b;
   background-color: #f0f0f0;
   margin-bottom: 0px; }
   .table img {
