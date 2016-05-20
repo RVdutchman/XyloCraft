@@ -126,7 +126,6 @@ function updateInput(id, value) {
     }
 }
 /*
-@Parm{id} int
 @Makes{JSON} Staff.json
 */
 function saveAll() {

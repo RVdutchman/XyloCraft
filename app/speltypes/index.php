@@ -34,8 +34,14 @@
     </div>
 
 
-
-
+    <div class="mid">
+    <br>
+      <center><img src="../img/survival.png" alt="survival" class="imgOpacity"></center>
+      <hr>
+      <center><img src="../img/Pvp-Arena.png" alt="Pvp Arena" class="imgOpacity"></center>
+      <hr>
+      <center><img src="../img/Jump-Maps.png" alt="Jump Maps" class="imgOpacity"></center>
+    </div>
     <footer id="footer"></footer>
   </div>
   </div>
