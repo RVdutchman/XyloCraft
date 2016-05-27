@@ -78,14 +78,14 @@ function MakeFooter(page) {
   }
   var footer = '<footer class="footer-distributed">\
                   <div class="footer-right">\
-                    <a href="#"><i class="fa fa-facebook"></i></a>\
-                    <a href="#"><i class="fa fa-twitter"></i></a>\
-                    <a href="#"><i class="fa fa-linkedin"></i></a>\
-                    <a href="#"><i class="fa fa-github"></i></a>\
+                    <a href="https://twitter.com/XyloSupport"><i class="fa fa-twitter"></i></a>\
+                    <a href="#"><i class="fa fa-twitch"></i></a>\
+                    <a href="#"><i class="fa fa-youtube"></i></a>\
+                    <a href="http://www.github.com/RVdutchman/XyloCraft"><i class="fa fa-github"></i></a>\
                   </div>\
                   <div class="footer-left">\
                     <p class="footer-links">XyloCraft</p>\
-                    <p>XyloCraft &copy; 2015</p>\
+                    <p>XyloCraft &copy; 2016.</p>\
                   </div>\
                 </footer>';
   document.getElementById('footer').innerHTML = footer;
