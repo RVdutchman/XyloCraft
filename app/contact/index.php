@@ -63,8 +63,8 @@
             </center>
           </div>
       </div>
-      <footer id="footer"></footer>
      </div>
+     <footer id="footer"></footer>
    </div>
     <script type="text/javascript" id="js">
     $( document ).ready(function() {

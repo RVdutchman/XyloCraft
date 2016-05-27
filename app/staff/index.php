@@ -57,8 +57,8 @@ if (isset($_SESSION["username"])) {
           }
         ?>
     </div>
-    <footer id="footer"></footer>
   </div>
+  <footer id="footer"></footer>
   <script type="text/javascript" id="js">
     var Staff;
     var thead;

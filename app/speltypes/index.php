@@ -42,8 +42,8 @@
       <hr>
       <center><img src="../img/Jump-Maps.png" alt="Jump Maps" class="imgOpacity"></center>
     </div>
-    <footer id="footer"></footer>
   </div>
+  <footer id="footer"></footer>
   </div>
   <script type="text/javascript" id="js">
   $( document ).ready(function() {

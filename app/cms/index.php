@@ -58,7 +58,6 @@ header("location: ../staff/index.php");
             </form>
           </div>
         </div>
-        <footer id="footer"></footer>
         <script type="text/javascript" id="js">
         $( document ).ready(function() {
               MakeFooter("cms");
@@ -67,6 +66,7 @@ header("location: ../staff/index.php");
         elem.parentNode.removeChild(elem);
         </script>
       </div>
+      <footer id="footer"></footer>
     </div>
   </body>
 </html>
