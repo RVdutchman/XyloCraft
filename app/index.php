@@ -12,7 +12,6 @@
 
       <title>XyloCraft Website</title>
   </head>
-
   <body><div class="all">
   <div class="container-fluid">
     <div class="row">
